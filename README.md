@@ -10,7 +10,7 @@ Download all files from this repository and copy them to a network folder, eg *P
 batch_file = 'P:/_blender_batch_render/batch_render.bat'
 ```
 
-Start Blender and install *addon_batch_render_windows.py* as a Blender Add-on. After the Add-on is enabled a new tab called *Batch Render* should show up in the Tools region (toggled on and off with the shortcut 't'). 
+Start Blender and install *add-on_batch_render_windows.py* as a Blender Add-on. After the Add-on is enabled a new tab called *Batch Render* should show up in the Tools region (toggled on and off with the shortcut 't'). 
 
 
 
