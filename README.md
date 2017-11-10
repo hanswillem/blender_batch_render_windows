@@ -16,7 +16,7 @@ Start Blender and install *addon_batch_render_windows.py* as a Blender Add-on.
 
 ### Use the add-on
 
-The Add-on is pretty straightforward. You can add a loaded .blend file to the queue, clear the queue, open the queue in Atom and open the folder where, among other files, *batch_render.bat* is stored. 
+The Add-on is pretty straightforward. You can add a loaded .blend file to the queue, clear the queue, open the queue in Atom and open the folder where the *.bat* and *.py* files are stored. If you double click on *batch_render.bat* Blender starts rendering all the files in the queue (in the background, i.e. the Blender UI is not opened).  
  
 
 ### Use zombie mode
