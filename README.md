@@ -26,4 +26,4 @@ The Add-on is pretty straightforward. You can add .blend files to the queue, cle
 
 ### Use multiple machines to render the queue together
 
-navigate to the network folder with *start_zombie.bat* and double click to start rendering the queue in the background. Repeat this for as many machines you like. Together the machines will render all the files in the queue.
+navigate to the network folder with *start_zombie.bat* and double click to start rendering the queue in the background. Repeat this for as many machines as you like. Together the machines will render all the files in the queue.
