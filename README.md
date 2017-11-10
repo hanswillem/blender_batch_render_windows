@@ -4,8 +4,8 @@
 
 ### Install instructions for use on a single machine
 
-Install Blender (blender.org) in the **default** location (C:\Program Files\Blender Foundation\Blender\blender.exe).
-Install Atom (atom.io).
+- Install Blender (blender.org) in the **default** location (C:\Program Files\Blender Foundation\Blender\blender.exe).
+- Install Atom (atom.io).
 
 Download *addon_batch_render_windows.py* and copy it to a folder, eg *P:/_blender_batch_render*. Look for the following line in the file  and edit it so that it points to that folder.
 ```python
