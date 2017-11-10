@@ -1,6 +1,7 @@
 # Blender Batch Render
 
-## These files can be used in Blender to make a render queue, edit the queue and batch render all the files in the queue in one go.
+## Render files in a queue with multiple machines
+
 
 ### Install instructions
 
@@ -13,7 +14,6 @@ batch_file = 'P:/_blender_batch_render/batch_render.bat'
 ```
 
 Start Blender and install *add-on_batch_render_windows.py* as a Blender Add-on. After the Add-on is enabled a new tab called *Batch Render* should show up in the Tools region (toggled on and off with the shortcut 't'). 
-
 
 
 ### Use the Batch Render Add-on
