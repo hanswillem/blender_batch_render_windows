@@ -3,14 +3,13 @@
 #### Put multiple .blend files in a render queue and render them in one go as a background job. It is also possible to make multiple machines render the same queue together.
 
 ### You'll need
-- Blender
-- Python 3
-- Atom
-
+- [Blender](https://www.blender.org) 
+- [Python 3](https://www.python.org)
+- [Atom](https://atom.io)
 
 ### Install instructions for use on a single machine
 
-Install Blender in the **default** location (C:\Program Files\Blender Foundation\Blender\blender.exe). Install Atom (atom.io). Download *addon_batch_render_windows.py* and copy it to a folder, eg *P:/_blender_batch_render*. Look for the following line in the file  and edit it so that it points to that folder.
+Install Blender in the **default** location (C:\Program Files\Blender Foundation\Blender\blender.exe). Install Atom. Download *addon_batch_render_windows.py* and copy it to a folder, eg *P:/_blender_batch_render*. Look for the following line in the file  and edit it so that it points to that folder.
 ```python
 batch_file = 'P:/_blender_batch_render/batch_render.bat'
 ```
