@@ -9,3 +9,5 @@ Download all files from this repository and copy them to a network folder, eg *P
 ```python
 batch_file = 'P:/_blender_batch_render/batch_render.bat'
 ```
+
+Start Blender and install *addon_batch_render_windows.py* as a BLender addon (go to *User Preferences > Add-ons > install Add-on from file*)
