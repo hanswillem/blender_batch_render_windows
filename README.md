@@ -2,7 +2,7 @@
 
 #### Put multiple .blend files in a render queue and render them in one go as a background job. It is also possible to make multiple machines render the same queue together.
 
-### You'll need
+### For this to work you'll need
 - [Blender](https://www.blender.org) 
 - [Python 3](https://www.python.org)
 - [Atom](https://atom.io)
