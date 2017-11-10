@@ -1,6 +1,6 @@
 # Blender Batch Render
 
-#### Put multiple files in a render queue and render them in one go as a background job. It is also possible to make multiple machines render the same queue together.
+#### Put multiple .blend files in a render queue and render them in one go as a background job. It is also possible to make multiple machines render the same queue together.
 
 ### Install instructions for use on a single machine
 
@@ -17,15 +17,12 @@ Start Blender and install *add-on_batch_render_windows.py* as a Blender Add-on. 
 
 ### Install instructions for use on multiple machines on a network
 
-Blender should be installed (blender.org) in the **default** location (C:\Program Files\Blender Foundation\Blender\blender.exe).
-Python 3 should be installed and added to the Windows PATH, and finally Atom should be installed (atom.io).
-
-Download all files from this repository and copy them to a network folder, eg *P:/_blender_batch_render*. Look for the following line in the file *addon_batch_render_windows.py* and edit it so that it points to that network folder.
+Download *addon_batch_render_windows.py*, *zombie.py* and *start_zombie.bat* and copy them to a network folder, eg *P:/_blender_batch_render*. Look for the following line in *addon_batch_render_windows.py*  and edit it so that it points to that network folder.
 ```python
 batch_file = 'P:/_blender_batch_render/batch_render.bat'
 ```
 
-Start Blender and install *add-on_batch_render_windows.py* as a Blender Add-on. After the Add-on is enabled a new tab called *Batch Render* should show up in the Tools region (toggled on and off with the shortcut 't'). 
+On at least one machine start Blender and install *add-on_batch_render_windows.py* as a Blender Add-on. A new tab called *Batch Render* should show up in the Tools region (toggled on and off with the shortcut 't'). 
 
 
 ### Use the Batch Render Add-on
