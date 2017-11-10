@@ -22,8 +22,7 @@ On at least one machine start Blender and install *add-on_batch_render_windows.p
 
 ### Use a single machine to make, edit and render the queue
 
-The Add-on is pretty straightforward. You can add a loaded .blend file to the queue, clear the queue, edit the queue in Atom and open the folder where the *.bat* and *.py* files are stored. If you double click on *batch_render.bat* Blender starts rendering all the files in the queue (in the background, i.e. the Blender UI is not opened).  
- 
+The Add-on is pretty straightforward. You can add .blend files to the queue, clear the queue, edit the queue in Atom and open the folder where the *.bat* and *.py* files are stored. If you double click on *batch_render.bat* Blender starts rendering all the files in the queue as a background job.  
 
 ### Use multiple machines to render the queue together
 
