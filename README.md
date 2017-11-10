@@ -1,6 +1,6 @@
 # Blender Batch Render
 
-### install instructions
+### Install instructions
 
 Blender should be installed (blender.org) to the **default** location (C:\Program Files\Blender Foundation\Blender\blender.exe).
 Python 3 should be installed and added to the Windows PATH, and finally Atom should be installed (atom.io)
@@ -10,4 +10,15 @@ Download all files from this repository and copy them to a network folder, eg *P
 batch_file = 'P:/_blender_batch_render/batch_render.bat'
 ```
 
-Start Blender and install *addon_batch_render_windows.py* as a BLender Add-on.
+Start Blender and install *addon_batch_render_windows.py* as a Blender Add-on.
+
+
+
+### Use the add-on
+
+The Add-on is pretty straightforward. You can add a loaded .blend file to the queue, clear the queue, open the queue in Atom and open the folder where, among other files, *batch_render.bat* is stored. 
+ 
+
+### Use zombie mode
+
+In the Add-on click on *Open Folder*
