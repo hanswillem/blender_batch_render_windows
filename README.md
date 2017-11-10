@@ -10,11 +10,11 @@ Download all files from this repository and copy them to a network folder, eg *P
 batch_file = 'P:/_blender_batch_render/batch_render.bat'
 ```
 
-Start Blender and install *addon_batch_render_windows.py* as a Blender Add-on.
+Start Blender and install *addon_batch_render_windows.py* as a Blender Add-on. After the Add-on is enabled a new tab called *Batch Render* should show up in the Tools region (toggled on and off with the shortcut 't'). 
 
 
 
-### Use the add-on
+### Use the Add-on
 
 The Add-on is pretty straightforward. You can add a loaded .blend file to the queue, clear the queue, open the queue in Atom and open the folder where the *.bat* and *.py* files are stored. If you double click on *batch_render.bat* Blender starts rendering all the files in the queue (in the background, i.e. the Blender UI is not opened).  
  
