@@ -1,12 +1,6 @@
 # Blender Batch Render
 
-## Render files in a queue with multiple machines
-
-### Batch Render Add-on
-The Blender Add-on can be used to put multiple files in a render queue and render them in one go as a background job.
-
-### Zombie
-Zombie mode can be used to let multiple machines render the same queue of files together.
+#### Put multiple files in a render queue and render them in one go as a background job. It is also possible to make multiple machines render the same queue together.
 
 ### Install instructions
 
