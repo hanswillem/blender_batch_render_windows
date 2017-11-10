@@ -4,8 +4,8 @@
 
 ### Install instructions for use on a single machine
 
-Blender should be installed (blender.org) in the **default** location (C:\Program Files\Blender Foundation\Blender\blender.exe).
-Atom should be installed (atom.io).
+Install Blender (blender.org) in the **default** location (C:\Program Files\Blender Foundation\Blender\blender.exe).
+Install Atom (atom.io).
 
 Download *addon_batch_render_windows.py* and copy it to a folder, eg *P:/_blender_batch_render*. Look for the following line in the file  and edit it so that it points to that folder.
 ```python
@@ -17,8 +17,8 @@ Start Blender and install *add-on_batch_render_windows.py* as a Blender Add-on. 
 
 ### Install instructions for use on multiple machines on a network
 
-Blender should be installed (blender.org) in the **default** location (C:\Program Files\Blender Foundation\Blender\blender.exe).
-Python 3 should be installed and added to the Windows PATH.
+Install Blender (blender.org) in the **default** location (C:\Program Files\Blender Foundation\Blender\blender.exe).
+Install Python 3 and add it to the Windows PATH.
 
 Download *addon_batch_render_windows.py*, *zombie.py* and *start_zombie.bat* and copy them to a network folder, eg *P:/_blender_batch_render*. Look for the following line in *addon_batch_render_windows.py*  and edit it so that it points to that network folder.
 ```python
