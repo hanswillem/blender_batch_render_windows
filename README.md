@@ -4,16 +4,11 @@
 
 ### Install instructions for use on a single machine
 
-- Install Blender (blender.org) in the **default** location (C:\Program Files\Blender Foundation\Blender\blender.exe).
-- Install Atom (atom.io).
-
-- Download *addon_batch_render_windows.py* and copy it to a folder, eg *P:/_blender_batch_render*. 
-- Look for the following line in the file  and edit it so that it points to that folder.
+Install Blender (blender.org) in the **default** location (C:\Program Files\Blender Foundation\Blender\blender.exe). Install Atom (atom.io). Download *addon_batch_render_windows.py* and copy it to a folder, eg *P:/_blender_batch_render*. Look for the following line in the file  and edit it so that it points to that folder.
 ```python
 batch_file = 'P:/_blender_batch_render/batch_render.bat'
 ```
-
-- Start Blender and install *add-on_batch_render_windows.py* as a Blender Add-on. A new tab called *Batch Render* should show up in the Tools region (toggled on and off with the shortcut 't'). 
+Start Blender and install *add-on_batch_render_windows.py* as a Blender Add-on. A new tab called *Batch Render* should show up in the Tools region (toggled on and off with the shortcut 't'). 
 
 
 ### Install instructions for use on multiple machines on a network
