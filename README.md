@@ -21,4 +21,4 @@ The Add-on is pretty straightforward. You can add a loaded .blend file to the qu
 
 ### Use zombie mode
 
-In the Add-on click on *Open Folder*
+When you double click on *start_zombie.py* Blender looks at the queue, i.e. *batch_render.bat* and picks the first file that has not yet been rendered. It then starts rendering that file in the background. When it is done, it picks the next file that has not been rendered. It keeps doing this until there are no more files to render. Zombie mode can be started on as many machines you like. Together they will render all the files in the queue. 
