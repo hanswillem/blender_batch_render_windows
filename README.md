@@ -9,7 +9,7 @@
 
 ### Install instructions for use on a single machine
 
-Install Blender in the **default location** *(C:\Program Files\Blender Foundation\Blender\blender.exe)*. Install Atom. Download *add-on_batch_render_windows.py* and copy it to a folder. Look for the following line in the file  and edit it so that it points to that folder.
+Install Blender in the **default location** *(C:\Program Files\Blender Foundation\Blender\blender.exe)*. Download *add-on_batch_render_windows.py* and copy it to a folder. Look for the following line in the file  and edit it so that it points to that folder.
 ```python
 batch_file = 'P:/_blender_batch_render/batch_render.bat'
 ```
@@ -22,7 +22,7 @@ Install Python 3 and add it to the Windows PATH. Download *add-on_batch_render_w
 ```python
 batch_file = 'P:/_blender_batch_render/batch_render.bat'
 ```
-On at least one machine start Blender and install *add-on_batch_render_windows.py* as a Blender Add-on. A new tab called *Batch Render* should show up in the Tools region (toggled on and off with the shortcut 't'). On this machine Atom should also be installed.
+On at least one machine start Blender and install *add-on_batch_render_windows.py* as a Blender Add-on. A new tab called *Batch Render* should show up in the Tools region (toggled on and off with the shortcut 't').
 
 ### Use a single machine to make, edit and render the queue
 
