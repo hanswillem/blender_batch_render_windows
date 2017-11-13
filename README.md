@@ -9,7 +9,7 @@
 
 ### Install instructions for use on a single machine
 
-Install Blender in the **default location** *(C:\Program Files\Blender Foundation\Blender\blender.exe)*. Download *add-on_batch_render_windows.py* and copy it to a folder. Look for the following line in the file  and edit it so that it points to that folder.
+Install Blender in the **default location** *(C:/Program Files/Blender Foundation/Blender/blender.exe)*. Download *add-on_batch_render_windows.py* and copy it to a folder. Look for the following line in the file  and edit it so that it points to that folder.
 ```python
 batch_file = 'P:/_blender_batch_render/batch_render.bat'
 ```
@@ -17,7 +17,7 @@ Start Blender and install *add-on_batch_render_windows.py* as a Blender Add-on. 
 
 ### Install instructions for use on multiple machines on a network
 
-Install Blender in the **default location** (C:\Program Files\Blender Foundation\Blender\blender.exe).
+Install Blender in the **default location** (C:/Program Files/Blender Foundation/Blender/blender.exe).
 Install Python 3 and add it to the Windows PATH. Download *add-on_batch_render_windows.py*, *zombie.py* and *start_zombie.bat* and copy them to a network folder that can be reached by all machines. Look for the following line in *add-on_batch_render_windows.py*  and edit it so that it points to that network folder.
 ```python
 batch_file = 'P:/_blender_batch_render/batch_render.bat'
