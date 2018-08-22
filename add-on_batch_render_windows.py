@@ -58,11 +58,6 @@ def main_clear_queue():
     createBatchFile()
 
 
-def main_edit_queue():
-    print('opening queue in atom...')
-    os.system('atom ' + batch_file)
-
-
 def main_open_folder():
     print('opening folder...')
     os.startfile(os.path.dirname(batch_file))
@@ -113,7 +108,6 @@ class MyPanel_batch_render(bpy.types.Panel):
         col = layout.column(align = True)
         col.operator('script.operator_add_to_queue', text="Add Current File To Queue")
         col.operator('script.operator_clear_queue', text="Clear Queue")
-        col.operator('script.operator_edit_queue', text="Edit Queue In Atom")
         col.operator('script.operator_open_folder', text="Open Folder")
 
 
@@ -148,21 +142,6 @@ class MyOperator_clear_queue(bpy.types.Operator):
         return {'FINISHED'}
 
 
-class MyOperator_edit_queue(bpy.types.Operator):
-
-    #operator attributes
-    """Edit The Queue In Atom"""
-    bl_label = 'Edit Queue'
-    bl_idname = 'script.operator_edit_queue'
-    bl_options = {'REGISTER', 'UNDO'}
-
-    #execute
-    def execute(self, context):
-        main_edit_queue()
-
-        return {'FINISHED'}
-
-
 class MyOperator_open_folder(bpy.types.Operator):
 
     #operator attributes
@@ -182,7 +161,6 @@ class MyOperator_open_folder(bpy.types.Operator):
 def register():
     bpy.utils.register_class(MyPanel_batch_render)
     bpy.utils.register_class(MyOperator_add_to_queue)
-    bpy.utils.register_class(MyOperator_edit_queue)
     bpy.utils.register_class(MyOperator_open_folder)
     bpy.utils.register_class(MyOperator_clear_queue)
 
@@ -190,7 +168,6 @@ def register():
 def unregister():
     bpy.utils.unregister_class(MyPanel_batch_render)
     bpy.utils.unregister_class(MyOperator_add_to_queue)
-    bpy.utils.unregister_class(MyOperator_edit_queue)
     bpy.utils.unregister_class(MyOperator_open_folder)
     bpy.utils.unregister_class(MyOperator_clear_queue)
 
