@@ -131,7 +131,7 @@ class MyPanel_batch_render(bpy.types.Panel):
         col.operator('script.operator_add_to_queue', text='Add Current File To Queue')
         col.operator('script.operator_add_layers_to_queue', text = 'Add Layers To Queue')
         col.operator('script.operator_clear_queue', text='Clear Queue')
-        col.operator('script.operator_open_folder', text='Open Folder')
+        col.operator('script.operator_open_bat_folder', text='Open Folder')
 
 
 #operator class
@@ -190,12 +190,12 @@ class MyOperator_clear_queue(bpy.types.Operator):
         return {'FINISHED'}
 
 
-class MyOperator_open_folder(bpy.types.Operator):
+class MyOperator_open_bat_folder(bpy.types.Operator):
 
     #operator attributes
     """Open the folder with the batch file"""
     bl_label = 'Open Folder'
-    bl_idname = 'script.operator_open_folder'
+    bl_idname = 'script.operator_open_bat_folder'
     bl_options = {'REGISTER', 'UNDO'}
 
     #execute
@@ -210,7 +210,7 @@ def register():
     bpy.utils.register_class(MyPanel_batch_render)
     bpy.utils.register_class(MyOperator_add_to_queue)
     bpy.utils.register_class(MyOperator_add_layers_to_queue)
-    bpy.utils.register_class(MyOperator_open_folder)
+    bpy.utils.register_class(MyOperator_open_bat_folder)
     bpy.utils.register_class(MyOperator_clear_queue)
 
 
@@ -218,7 +218,7 @@ def unregister():
     bpy.utils.unregister_class(MyPanel_batch_render)
     bpy.utils.unregister_class(MyOperator_add_to_queue)
     bpy.utils.unregister_class(MyOperator_add_layers_to_queue)
-    bpy.utils.unregister_class(MyOperator_open_folder)
+    bpy.utils.unregister_class(MyOperator_open_bat_folder)
     bpy.utils.unregister_class(MyOperator_clear_queue)
 
 
