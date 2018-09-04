@@ -73,8 +73,10 @@ def main_add_layers_to_queue():
         bpy.ops.wm.save_as_mainfile(filepath = nf_p, copy = True) #save a copy of the blendfile
 
         main_add_to_queue(nf_p)
+        
+    bpy.context.scene.render.filepath = outp
 
-
+    
 def main_clear_queue():
     print('clearing the queue...')
     createBatchFile()
